@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color:black;
+}
+
+nav ul li {
+
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li a{
+
+    display: inline-block;
+    color: black;
+    font-style: italic;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 10px 10px 10px 10px;
+    background-color:antiquewhite;
+    transition: 0.5s;
+
+}
+
+nav ul li a:hover{
+
+    background: burlywood;
+}
+
+nav ul li ul{
+     
+    position: absolute ;   
+    left: 5px;
+     top: 150%; 
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.7s;
+    
+
+}
+
+nav ul li:hover ul{
+    visibility: visible;
+    top: 105%;
+    opacity: 1;
+
+}
+
+nav ul li ul li{
+
+    display: block;
+    /* border: 1px solid black; */
+    border-radius: 25px;
+
+}
+
+ 
+nav ul li ul li a{
+    background-color: rgb(196, 255, 235);
+ }
+
+ /* 2nd */
+
+ nav.yeaf{
+
+    margin-top: 250px;
+    background-color: beige;   
+}
+
+nav.yeaf ul li {
+    display: inline-block;
+    position: relative;
+
+}
+nav.yeaf ul li a{
+
+    font-style: italic;
+    color: darkslategrey;
+    background-color:rgb(196, 255, 235);
+    transition: 0.5s;
+
+} 
+
+nav.yeaf ul li a:hover{
+    background-color: aquamarine;
+}
+
+nav.yeaf ul li  ul {
+
+    position: absolute;
+    right: -150%;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.9s;
+} 
+nav.yeaf ul li:hover ul{
+    visibility: visible;
+    opacity: 1;
+    top: 105%;
+    right: 0%;
+}
+nav.yeaf ul li ul li{
+    display: block;
+ }   
+ nav.yeaf ul li ul li a{
+    background-color: rgb(10, 255, 247);
+ }
+
+ /* 3rd nav */
+
+ nav.dy{
+    margin-top: 270px;
+    margin-bottom: 200px;
+    background-color: cadetblue;
+ }
+ 
+ nav.dy ul li{
+    display: inline-block;
+    position: relative;
+ }
+
+ nav.dy ul li a{
+    font-style: initial;
+    color: darkolivegreen;
+    background-color: bisque;
+    transition: 0.5s;
+   
+ }
+
+ nav.dy ul li a:hover{
+    background-color: honeydew;
+ }
+
+ nav.dy ul li ul{
+    position:absolute;
+    visibility: hidden;
+    right: 0%;
+    opacity: 0;
+    transition: 0.5s;
+ }
+
+ nav.dy ul li:hover ul{
+
+    visibility: visible;
+    opacity: 1;
+    top: 130%;
+    right: 0%;
+ }
+
+ nav.dy ul li ul li{
+
+    display: block;
+ }
+ nav.dy ul li ul li a{
+    background-color:blanchedalmond;
+ }
+   
+
+
+
+
+
+
+ 
